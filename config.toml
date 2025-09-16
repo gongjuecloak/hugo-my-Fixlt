@@ -1,4 +1,5 @@
 defaultContentLanguage = 'zh-cn'
+languageCode = 'zh'
 baseURL = 'http://example.org/'
 title = '公爵书房'
 theme = 'FixIt'
