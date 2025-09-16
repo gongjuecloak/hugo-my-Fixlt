@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
 defaultContentLanguage = 'zh-cn'
+baseURL = 'http://example.org/'
 title = '公爵书房'
 theme = 'FixIt'
 [params]
