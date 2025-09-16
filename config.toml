@@ -1,5 +1,4 @@
 baseURL = 'http://example.org/'
-languageCode = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
 title = '公爵书房'
 theme = 'FixIt'
@@ -107,9 +106,90 @@ theme = 'FixIt'
       link = "了解更多"
   [params.githubCorner]
     enable = true
-    permalink = ""
-    title = "View source on GitHub"
-    position = "right"
+    permalink = "https://github.com/gongjuecloak/hugo-my-Fixlt"
+    title = "查看源码"
+    position = "left"
+  [params.backToTop]
+    enable = true
+    scrollpercent = false
+  [params.readingProgress]
+    enable = true
+    start = "left"
+    position = "top"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "2px"
+  [params.page]
+    collectionList = true
+    linkToSource = false
+    linkToMarkdown = false
+    linkToEdit = false
+    linkToVscode = false
+    linkToReport = true
+    [params.page.expirationReminder]
+      enable = true
+      # 如果文章最后更新于这天数之前，显示提醒
+      reminder = 90
+      # 如果文章最后更新于这天数之前，显示警告
+      warning = 180
+      # 如果文章到期是否关闭评论
+      closeComment = false
+    # FixIt 0.3.0 | 新增 相关内容配置 (https://gohugo.io/content-management/related/)
+    [params.page.related]
+      enable = true
+      count = 5
+      position = ["aside"]
+    # FixIt 0.2.17 | 新增 赞赏设置
+    [params.page.reward]
+      enable = false
+      animation = false
+      # 相对于页脚的位置，可选值：["before", "after"]
+      position = "after"
+      # comment = "Buy me a coffee"
+      # FixIt 0.2.18 | 新增 二维码图片展示模式，可选值：["static", "fixed"]，默认：`static`
+      mode = "static"
+      [params.page.reward.ways]
+        # wechatpay = "/images/wechatpay.png"
+        # alipay = "/images/alipay.png"
+        # paypal = "/images/paypal.png"
+        # bitcoin = "/images/bitcoin.png"
+    # 文章页面的分享信息设置
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = true
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = true
+      Myspace = false
+      Blogger = false
+      Baidu = true
+      Odnoklassniki = false
+      Evernote = true
+      Skype = false
+      Trello = false
+      Mix = false
+    # FixIt 0.2.15 | 更改 评论系统设置
+    [params.page.comment]
+      enable = true
+      [params.page.comment.gitalk]
+        enable = true
+        owner = "gongjuecloak"
+        repo = "https://github.com/gongjuecloak/hugo-my-Fixlt"
+        clientId = "Ov23liIH3vp24g3MFs1c"
+        clientSecret = "5f76a091a5dda73bea3d932343ad39050e069bca"
 
 [markup]
   _merge = "shallow"
