@@ -184,12 +184,22 @@ theme = 'FixIt'
     # FixIt 0.2.15 | 更改 评论系统设置
     [params.page.comment]
       enable = true
-      [params.page.comment.gitalk]
+      [params.page.comment.giscus]
         enable = true
-        owner = "gongjuecloak"
-        repo = "https://github.com/gongjuecloak/hugo-my-Fixlt"
-        clientId = "Ov23liIH3vp24g3MFs1c"
-        clientSecret = "5f76a091a5dda73bea3d932343ad39050e069bca"
+        repo = "gongjuecloak/hugo-my-Fixlt"
+        repoId = "R_kgDOPwo6Fg"
+        category = "Q&A"
+        categoryId = "DIC_kwDOPwo6Fs4Cvfbr"
+        mapping = "pathname"
+        origin = "https://giscus.app" # FixIt 0.3.7 | 新增 Or set it to your self-hosted domain
+        strict = "0" # FixIt 0.2.18 | 新增
+        term = ""
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom" # ["top", "bottom"]
+        lightTheme = "light"
+        darkTheme = "dark"
+        lazyLoad = true
 
 [markup]
   _merge = "shallow"
