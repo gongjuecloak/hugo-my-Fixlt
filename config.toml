@@ -1,6 +1,6 @@
 defaultContentLanguage = 'zh-cn'
 languageCode = 'zh-CN'
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.gjcloak.top/'
 title = '公爵书房'
 theme = 'FixIt'
 [params]
