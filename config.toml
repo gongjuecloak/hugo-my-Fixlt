@@ -1,0 +1,119 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+title = '公爵书房'
+theme = 'FixIt'
+[params]
+  version = "v0.4.0-alpha.2"
+  description = "这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程"
+  keywords = ["Hugo", "FixIt", "IT", "笔记", "博客"]
+  [params.author]
+    name = "公爵"
+    email = "763771418@qq.com"
+    link = "https://blog.gjcloak.top"
+    avatar = "https://q.qlogo.cn/headimg_dl?dst_uin=763771418&spec=640"
+  [params.breadcrumb]
+    enable = true
+    sticky = true
+    showHome = false
+    separator = "/"
+    capitalize = false
+  [params.navigation]
+    inSection = true
+    reverse = true
+  [params.footer]
+    enable = true
+    copyright = true
+    author = true
+    since = "2022"
+    gov = "闽公网安备35020502000606号"
+    icp = "赣ICP备2022001242号-1"
+    license = ""
+    [params.footer.powered]
+      enable = true
+      hugoLogo = true
+      themeLogo = true
+    [params.footer.siteTime]
+      enable = true
+      animate = true
+      icon = "fa-solid fa-heartbeat"
+      pre = "已存活"
+      value = "2022-01-19T13:49:00+08:00"
+    [params.footer.order]
+      powered = 0
+      copyright = 0
+      statistics = 0
+      visitor = 0
+      beian = 0
+  [params.archives]
+    paginate = 25
+    dateFormat = "01-02"
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    [params.section.feed]
+      limit = -1
+      fullText = false
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    [params.list.feed]
+      limit = -1
+      fullText = false
+  [params.recentlyUpdated]
+    archives = true
+    section = true
+    list = true
+    days = 30
+    maxCount = 10
+  [params.home]
+    paginate = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "763771418@qq.com"
+      avatarURL = "https://q.qlogo.cn/headimg_dl?dst_uin=763771418&spec=640"
+      avatarMenu = ""
+      title = "公爵书房"
+      subtitle = "以指键之轻，承载知识之重"
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+  [params.social]
+    Mastodon = "@gjcloak"
+    Github = "gongjuecloak"
+    QQ = "763771418"
+    Email = "763771418@qq.com"
+    bilibili = "3054324"
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+    so = ""
+    sogou = ""
+  [params.analytics]
+    enable = true
+    [params.analytics.baidu]
+      id = "4f7a563c757c9423f8b1208f9b00c480"
+  [params.cookieconsent]
+    enable = true
+    [params.cookieconsent.content]
+      message = "本站使用 Cookies 来改善您的浏览体验。"
+      dismiss = "同意使用"
+      link = "了解更多"
+  [params.githubCorner]
+    enable = true
+    permalink = ""
+    title = "View source on GitHub"
+    position = "right"
+
+[markup]
+  _merge = "shallow"
+[outputs]
+  _merge = "shallow"
+[taxonomies]
+  _merge = "shallow"

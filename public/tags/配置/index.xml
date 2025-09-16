@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>配置 - 标签 - 公爵书房</title>
+    <link>http://localhost:1313/tags/%E9%85%8D%E7%BD%AE/</link>
+    <description>这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程</description>
+    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha.2-20250915151330-1f0762dd</generator>
+    <language>zh-cn</language>
+    <managingEditor>763771418@qq.com (公爵)</managingEditor>
+    <webMaster>763771418@qq.com (公爵)</webMaster>
+    <lastBuildDate>Fri, 01 Mar 2024 17:10:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 01 Mar 2024 17:10:04 +0800</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <category domain="http://localhost:1313/categories/%E6%96%87%E6%A1%A3/">文档</category>
+      <description>&lt;p&gt;博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

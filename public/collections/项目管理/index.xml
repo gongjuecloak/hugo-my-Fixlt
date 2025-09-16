@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>项目管理 - 合集 - 公爵书房</title>
+    <link>http://localhost:1313/collections/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</link>
+    <description>这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程</description>
+    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha.2-20250915151330-1f0762dd</generator>
+    <language>zh-cn</language>
+    <managingEditor>763771418@qq.com (公爵)</managingEditor>
+    <webMaster>763771418@qq.com (公爵)</webMaster>
+    <lastBuildDate>Tue, 16 Sep 2025 09:51:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/collections/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何让会议更高效</title>
+      <link>http://localhost:1313/posts/3/</link>
+      <pubDate>Tue, 16 Sep 2025 09:51:14 +0800</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/posts/3/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;p&gt;规模越大的公司，会议越多。职位越高的人大部分工作时间都是在开会中度过，甚至是开会开到没时间工作。但这并不意味着开会是有价值的。&lt;/p&gt;&#xA;&lt;p&gt;如果开会不能产生价值，它就没有意义， 我称之为“虚假繁忙”。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
