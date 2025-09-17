@@ -34,5 +34,13 @@
       <category domain="http://localhost:1313/categories/%E4%B9%A6%E7%B1%8D/">书籍</category>
       <description>&lt;p&gt;有人说，他是一位孤军奋斗，忧郁跌宕，最后征服一切困难，具有萌芽和上升时期资产阶级精神面貌的王子。&lt;/p&gt;&#xA;&lt;p&gt;有人说，他是一个代表先进人们为了把人类从压迫中解放出来，热烈的寻求人生的理想和精神枷锁解脱方式，成为解放人类的光荣战斗中的一员杰出战士。&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>业务流程图绘制分享</title>
+      <link>http://localhost:1313/2022/0816/1/</link>
+      <pubDate>Tue, 16 Aug 2022 22:17:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/0816/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;在实际生活中，我们会碰到各种各样的流程。比如你去医院看病，你需要先去服务台领个具体要去看病的某个科室的小票，再前往挂号窗口将小票递给工作人员，缴完挂号费之后拿到挂号单，再前往具体科室去看病。各处都会有自己的流程，按照流程来走可以快速达到目的，减少不必要的麻烦，当然你也可以独辟蹊径，这就属于流程的优化。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

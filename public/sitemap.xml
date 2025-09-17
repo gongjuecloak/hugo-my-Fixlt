@@ -2,11 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-17T09:56:07+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/search/</loc>
-    <lastmod>2025-09-17T09:56:07+08:00</lastmod>
+    <lastmod>2025-09-17T08:29:31+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/friends/</loc>
@@ -71,5 +67,17 @@
   <url>
     <loc>http://localhost:1313/2022/0820/1/</loc>
     <lastmod>2022-08-20T20:16:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/</loc>
+    <lastmod>2022-08-16T22:17:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/%E4%B8%9A%E5%8A%A1/</loc>
+    <lastmod>2022-08-16T22:17:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/2022/0816/1/</loc>
+    <lastmod>2022-08-16T22:17:00+00:00</lastmod>
   </url>
 </urlset>
