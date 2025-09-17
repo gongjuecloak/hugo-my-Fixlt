@@ -8,16 +8,8 @@
     <language>zh-CN</language>
     <managingEditor>763771418@qq.com (公爵)</managingEditor>
     <webMaster>763771418@qq.com (公爵)</webMaster>
-    <lastBuildDate>Tue, 16 Sep 2025 09:46:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2024 17:10:40 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何让会议更高效</title>
-      <link>http://localhost:1313/2025/0916/1/</link>
-      <pubDate>Tue, 16 Sep 2025 09:46:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
-      <guid>http://localhost:1313/2025/0916/1/</guid>
-      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
-      <description>&lt;p&gt;规模越大的公司，会议越多。职位越高的人大部分工作时间都是在开会中度过，甚至是开会开到没时间工作。但这并不意味着开会是有价值的。&lt;/p&gt;&#xA;&lt;p&gt;如果开会不能产生价值，它就没有意义， 我称之为“虚假繁忙”。&lt;/p&gt;</description>
-    </item>
     <item>
       <title>变化的世界 不变的原则 ——《高效能人士的七个习惯》</title>
       <link>http://localhost:1313/2024/0301/1/</link>
@@ -25,6 +17,46 @@
       <guid>http://localhost:1313/2024/0301/1/</guid>
       <category domain="http://localhost:1313/categories/%E4%B9%A6%E7%B1%8D/">书籍</category>
       <description>&lt;p&gt;其实不是你询问生命的意义何在，而是生命正提出质疑，要求你回答存在的意义为何。&lt;/p&gt;&#xA;&lt;p&gt;这是一本好书，总结论述了七个习惯，或者说是七个信条，不仅仅对于高效能人士有价值，也是人生自我修炼的信条，是非常精粹和正确的人生道理。它表达的是一种新的思想水平，基于原则的思维定式。这种新的思想水平强调以原则为中心，以品德为基础，要求“由内而外”地实现个人效能和人际效能。作者对于“由内而外”的定义是从自身做起，甚至更彻底一些，从自己的内心做起，包括自己的思维定式、品德操守和动机。这种思维模式我现在只是有点肤浅的理解，而把这种思想应用到实际生活中是我将要追求的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>项目管理三大基准（三）：成本基准</title>
+      <link>http://localhost:1313/2022/1115/1/</link>
+      <pubDate>Tue, 15 Nov 2022 03:33:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/1115/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;再前两篇文章《&lt;a href=&#34;http://localhost:1313/2022/1113/1/&#34;&gt;项目管理三大基准（一）：范围基准&lt;/a&gt;》和《&lt;a href=&#34;http://localhost:1313/2022/1114/1/&#34;&gt;项目管理三大基准（二）：进度基准&lt;/a&gt;》中，交代了一、二准则，在本文，我们分析了第三准则——成本基准，文章中主要从估算成本、制定预算、项目成本结构、生成成本基准、生成三大基准和项目三角形这六方面展开。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;在定义活动过程中我们得到了活动清单和活动属性，因此可对单个活动的成本进行估算，估算过单个活动的成本后可根据实际情况制定预算。&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading-element&#34; id=&#34;一估算成本&#34;&gt;&lt;span&gt;一、估算成本&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e4%b8%80%e4%bc%b0%e7%ae%97%e6%88%90%e6%9c%ac&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;估算单个活动的成本，估算单个活动的成本包括专家判断、类比估算、参数估算、三点估算、自下而上估算、储备分析和质量成本。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>项目管理三大基准（二）：进度基准</title>
+      <link>http://localhost:1313/2022/1114/1/</link>
+      <pubDate>Mon, 14 Nov 2022 16:34:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/1114/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;在上篇文章《&lt;a href=&#34;http://localhost:1313/2022/1113/1/&#34;&gt;项目管理三大基准（一）：范围基准&lt;/a&gt;》中，谈了范围基准。在本篇文章中，谈了进度基准，文章主要从定义活动、排列活动顺序、估算活动持续时间、制定进度计划、生成进度基准五方面展开。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;在上一篇《范围基准线》里我们通过收集用户需求来明确了项目边界，编制了项目范围说明书。然后在项目范围说明书的指导下，对项目边界内部的工作分解为更为细致的工作包，得到了范围基准。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>项目管理三大基准（一）：范围基准</title>
+      <link>http://localhost:1313/2022/1113/1/</link>
+      <pubDate>Sun, 13 Nov 2022 16:31:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/1113/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;对于产品经理来说，项目管理是必备的技能，同时，项目管理也很考验产品经理自身的能力。本文作者为我们罗列了产品经理的三大基准，在第一篇，作者主要交代了项目的四要素、范围管理的意义、范围基准生成流程、生成范围基准，希望对你有所帮助。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何让会议更高效</title>
+      <link>http://localhost:1313/2022/0507/1/</link>
+      <pubDate>Sat, 07 May 2022 19:02:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/0507/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;p&gt;规模越大的公司，会议越多。职位越高的人大部分工作时间都是在开会中度过，甚至是开会开到没时间工作。但这并不意味着开会是有价值的。&lt;/p&gt;&#xA;&lt;p&gt;如果开会不能产生价值，它就没有意义， 我称之为“虚假繁忙”。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何管理干系人？</title>
+      <link>http://localhost:1313/2022/0403/1/</link>
+      <pubDate>Sun, 03 Apr 2022 09:15:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/0403/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本篇文章作者系统地从多个方面讲解了如何管理干系人，分别从干系人的概念、识别、分析、管理以及综合案例展开讲述，希望对你有帮助&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;请你思考一下，下面这个失败的项目，主要是谁的错？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

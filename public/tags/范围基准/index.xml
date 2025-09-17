@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>范围基准 - 标签 - 公爵书房</title>
+    <link>http://localhost:1313/tags/%E8%8C%83%E5%9B%B4%E5%9F%BA%E5%87%86/</link>
+    <description>这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程</description>
+    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha.2-20250915151330-1f0762dd</generator>
+    <language>zh-CN</language>
+    <managingEditor>763771418@qq.com (公爵)</managingEditor>
+    <webMaster>763771418@qq.com (公爵)</webMaster>
+    <lastBuildDate>Sun, 13 Nov 2022 16:31:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%8C%83%E5%9B%B4%E5%9F%BA%E5%87%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>项目管理三大基准（一）：范围基准</title>
+      <link>http://localhost:1313/2022/1113/1/</link>
+      <pubDate>Sun, 13 Nov 2022 16:31:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/2022/1113/1/</guid>
+      <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;对于产品经理来说，项目管理是必备的技能，同时，项目管理也很考验产品经理自身的能力。本文作者为我们罗列了产品经理的三大基准，在第一篇，作者主要交代了项目的四要素、范围管理的意义、范围基准生成流程、生成范围基准，希望对你有所帮助。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
