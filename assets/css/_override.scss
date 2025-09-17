@@ -1,2 +1,6 @@
-@import url('https://cdn.jsdelivr.net/npm/cloak-font-siyuan/result.css');
-$global-font-family: 'Source Han Sans SC', $global-font-family;
+@import url('https://chinese-fonts-cdn.deno.dev/packages/sypxzs/dist/思源屏显臻宋/result.css');
+html,body {
+   font-family: "Source Han Serif CN for Display";
+   font-weight: normal;
+   font-size: 1rem;
+}
