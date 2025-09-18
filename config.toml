@@ -314,3 +314,14 @@ hasCJKLanguage = true
     weight = 6
     [menu.main.params]
       icon = "fa-solid fa-link"
+  [[menu.main]]
+    identifier = "foreverblog"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "虫洞"
+    url = "https://www.foreverblog.cn/go.html"
+    title = ""
+    weight = 7
+    [menu.main.params]
+      icon = "fa-solid fa-sun"
