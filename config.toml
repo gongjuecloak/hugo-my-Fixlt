@@ -135,7 +135,7 @@ hasCJKLanguage = true
     linkToEdit = false
     linkToVscode = false
     linkToReport = true
-    twemoji = true
+    twemoji = false
     [params.page.expirationReminder]
       enable = true
       # 如果文章最后更新于这天数之前，显示提醒
