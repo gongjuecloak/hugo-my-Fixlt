@@ -9,7 +9,7 @@ summaryLength = 70
 hasCJKLanguage = true
 [permalinks]
   [permalinks.page]
-    posts = '/:year/:month:day/:slug/'
+    posts = '/:year/:month/:day/:slug/'
 [params]
   version = "v0.4.0-alpha.2"
   description = "这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程"

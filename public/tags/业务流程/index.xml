@@ -12,11 +12,11 @@
     <atom:link href="http://localhost:1313/tags/%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5W2H，帮助你梳理B端产品业务流程</title>
-      <link>http://localhost:1313/2022/1217/1/</link>
+      <link>http://localhost:1313/2022/12/17/1/</link>
       <pubDate>Sat, 17 Dec 2022 23:00:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
-      <guid>http://localhost:1313/2022/1217/1/</guid>
+      <guid>http://localhost:1313/2022/12/17/1/</guid>
       <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://cos.gjcloak.xyz/yun/202212171442872.png?imageMogr2/format/webp/interlace/1/quality/80&#39; alt=&#34;https://cos.gjcloak.xyz/yun/202212171442872.png?imageMogr2/format/webp/interlace/1/quality/80&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;在产品设计的过程中，不可避免的会涉及到产品的业务流程的设计，业务流程往往是多用户、多角色、甚至是多企业协作最终完成最终目标。&lt;/p&gt;&#xA;&lt;p&gt;例如：&lt;/p&gt;&#xA;&lt;p&gt;To C电商产品设计过程中：主业务流程是：商家发布商品 → 用户选择商品 → 用户购买商品 → 商家处理订单 → 物流配送运单 → 用户接收货品。在这个主线业务流程中由商家、用户、支付公司、快递公司三方协作完成最终用户在线上购买到商品的最终目标。&lt;/p&gt;</description>
+      <description>这篇文章介绍了使用5W2H方法来梳理B端产品业务流程。梳理业务流程包括确定参与方、目标、原因、地点、时间、完成方法和成本等要素；切分子目标并细抠目标要素；设计用户页面；进行目标用户测试。文章强调了梳理业务流程的重要性，以及如何进行具体的业务流程设计。</description>
     </item>
   </channel>
 </rss>

@@ -12,17 +12,17 @@
     <atom:link href="http://localhost:1313/tags/%E5%88%9D%E7%BA%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>需求分析是什么&amp;案例解析</title>
-      <link>http://localhost:1313/2023/0316/1/</link>
+      <link>http://localhost:1313/2023/03/16/1/</link>
       <pubDate>Thu, 16 Mar 2023 15:49:55 +0000</pubDate><author>763771418@qq.com (公爵)</author>
-      <guid>http://localhost:1313/2023/0316/1/</guid>
+      <guid>http://localhost:1313/2023/03/16/1/</guid>
       <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
       <description>&lt;p&gt;本文将需求分为两类——工具类需求、用户端需求；并进一步给出了两个案例方便理解。&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading-element&#34; id=&#34;前言&#34;&gt;&lt;span&gt;前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;关于需求分析无疑是产品经理的一项必备基础功，也是每个产品经理可能工作大部分时间都在做的事情，但是绝大部分产品经理可能不会刻意的去总结一套方法论。总的来说不总结方法论也不会有多少问题，因为毕竟基本工作很熟手，但是总结了方法论并写出来有以下几个好处：&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何管理干系人？</title>
-      <link>http://localhost:1313/2022/0403/1/</link>
+      <link>http://localhost:1313/2022/04/03/1/</link>
       <pubDate>Sun, 03 Apr 2022 09:15:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
-      <guid>http://localhost:1313/2022/0403/1/</guid>
+      <guid>http://localhost:1313/2022/04/03/1/</guid>
       <category domain="http://localhost:1313/categories/%E7%9F%A5%E8%AF%86/">知识</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本篇文章作者系统地从多个方面讲解了如何管理干系人，分别从干系人的概念、识别、分析、管理以及综合案例展开讲述，希望对你有帮助&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;请你思考一下，下面这个失败的项目，主要是谁的错？&lt;/p&gt;</description>
     </item>
