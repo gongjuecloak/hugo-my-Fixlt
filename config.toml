@@ -135,6 +135,7 @@ hasCJKLanguage = true
     linkToEdit = false
     linkToVscode = false
     linkToReport = true
+    twemoji = true
     [params.page.expirationReminder]
       enable = true
       # 如果文章最后更新于这天数之前，显示提醒
@@ -314,3 +315,14 @@ hasCJKLanguage = true
     weight = 6
     [menu.main.params]
       icon = "fa-solid fa-link"
+  [[menu.main]]
+    identifier = "devices"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "设备"
+    url = "/devices/"
+    title = ""
+    weight = 7
+    [menu.main.params]
+      icon = "fa-solid fa-truck"

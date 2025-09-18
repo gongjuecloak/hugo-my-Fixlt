@@ -1,0 +1,20 @@
+- name: OnePlus 8T
+  description: 青色 / 8GB+128GB，搭载 120Hz 柔性直屏，8192 级自动亮度调节，65W 超级闪充，4500mAh 电池能量，骁龙 865 旗舰性能，188g 轻薄手感。
+  image: /device/oneplus8T.png
+  link: https://www.oneplus.com/cn/8t/specs
+  price: 3499
+- name: OnePlus Buds Pro
+  description: 独白，不仅在降噪、音质和续航上做到了不错的水平，还创新性的提供了白噪音模式，帮用户屏蔽无序的城市噪音，留下大自然的虫鸣鸟叫。
+  image: /device/OnePlusBudsPro.webp
+  link: https://www.oneplus.com/cn/oneplus-buds-pro#a
+  price: 458
+- name: Nintendo Switch™主机
+  description: 日行，最值得称道的地方，当然是它既可以当成主机，又能当成掌机来用的无缝游戏体验；同时在多人游戏中能有很好的体验！
+  image: /device/Switch.webp
+  link: https://www.nintendoswitch.com.cn/
+  price: 3370
+- name: 华为手环7
+  description: 曜石黑，AMOLED 全面屏，超窄边框，屏幕细腻看得见。更轻更薄的机身*，轻盈舒适，贴合手腕，佩戴时让你几乎忘记了它的存在。
+  image: /device/华为手环7.webp
+  link: https://consumer.huawei.com/cn/wearables/band7/
+  price: 269

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所有goods - 公爵书房</title>
+    <link>http://localhost:1313/goods/</link>
+    <description>这有关于P社相关的攻略教程，也有文章翻译和分享。相信你可以在这里找到对你有用的知识和教程</description>
+    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha.2-20250915151330-1f0762dd</generator>
+    <language>zh-CN</language>
+    <managingEditor>763771418@qq.com (公爵)</managingEditor>
+    <webMaster>763771418@qq.com (公爵)</webMaster>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/goods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的好物</title>
+      <link>http://localhost:1313/goods/goods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>763771418@qq.com (公爵)</author>
+      <guid>http://localhost:1313/goods/goods/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;给日子加点料。&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
