@@ -261,3 +261,32 @@
         gap: 6px;
     }
 }
+/* 夜间模式下的设备卡片样式 */
+[data-theme='dark'] .device-item {
+    background-color: #2a2a2a; /* 深色背景，可根据需求调整 */
+    color: #e0e0e0; /* 浅色文字，可根据需求调整 */
+    border: 1px solid #333; /* 深色边框，可根据需求调整 */
+}
+
+/* 夜间模式下设备卡片内文字等细节样式，保证可读性 */
+[data-theme='dark'] .device-description,
+[data-theme='dark'] .device-title a,
+[data-theme='dark'] .device-price,
+[data-theme='dark'] .device-dates {
+    color: #ccc; /* 调整文字颜色，适配深色背景 */
+}
+
+/* 夜间模式下退役设备卡片样式，可设置不同深色区分 */
+[data-theme='dark'] .device-item.retired {
+    background-color: #3a2a2a; /* 比普通卡片更深的颜色，可根据需求调整 */
+}
+
+/* 夜间模式下设备卡片链接 hover 效果 */
+[data-theme='dark'] .device-link:hover {
+    color: #8ab4f8; /* hover 时链接颜色，可根据需求调整 */
+}
+
+[data-theme='dark'] .device-price {
+background-color: #333; /* 设置深色背景，与卡片整体深色匹配 */
+    color: #f0f0f0; /* 文字颜色设为浅色，提升可读性 */
+}
