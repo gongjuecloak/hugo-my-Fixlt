@@ -3,18 +3,36 @@
   image: /device/oneplus8T.png
   link: https://www.oneplus.com/cn/8t/specs
   price: 3499
+  status: "已退役"  # 退役设备
+  purchaseDate: "2020-10-30"
+  retirementDate: "2024-02-06"
 - name: OnePlus Buds Pro
   description: 独白，不仅在降噪、音质和续航上做到了不错的水平，还创新性的提供了白噪音模式，帮用户屏蔽无序的城市噪音，留下大自然的虫鸣鸟叫。
   image: /device/OnePlusBudsPro.webp
   link: https://www.oneplus.com/cn/oneplus-buds-pro#a
   price: 458
+  status: "已退役"  # 退役设备
+  purchaseDate: "2021-02-03"
+  retirementDate: "2024-06-25"
 - name: Nintendo Switch™主机
   description: 日行，最值得称道的地方，当然是它既可以当成主机，又能当成掌机来用的无缝游戏体验；同时在多人游戏中能有很好的体验！
   image: /device/Switch.webp
   link: https://www.nintendoswitch.com.cn/
   price: 3370
+  status: "服役中"  # 服役中设备
+  purchaseDate: "2020-03-23"
 - name: 华为手环7
   description: 曜石黑，AMOLED 全面屏，超窄边框，屏幕细腻看得见。更轻更薄的机身*，轻盈舒适，贴合手腕，佩戴时让你几乎忘记了它的存在。
   image: /device/华为手环7.webp
   link: https://consumer.huawei.com/cn/wearables/band7/
+  price: 208
+  status: "已退役"  # 退役设备
+  purchaseDate: "2022-11-02"
+  retirementDate: "2024-07-09"
+- name: OnePlus ACE3
+  description: 蓝色 / 16GB+1TB，全球首发搭载 1.5K 东方屏1，采用最新一代 X1 发光材料，显示效果出类拔萃，并一举通过了 DisplayMate A+ 的最高评级，刷新 18 项屏幕显示新纪录。
+  image: /device/ACE3-blue.png
+  link: https://www.oneplus.com/cn/ace-3
   price: 269
+  status: "服役中"  # 退役设备
+  purchaseDate: "2021-09-24"

@@ -32,30 +32,56 @@
   }
 }
 
-/* -------------------- 设备页 ------------------- */
+/* -------------------- 设备页 优化版 ------------------- */
+/* 1. 基础样式：统一字体、盒模型 */
 @import url('https://fonts.cdnfonts.com/css/d-din');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* 统一盒模型，避免padding影响宽度 */
+}
+
 .devices {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    gap: 12px;
-    margin-top: 1rem;
-    box-sizing: border-box;
+    gap: 24px; /* 增大间距，避免卡片拥挤 */
+    margin-top: 2rem; /* 增加顶部空白，提升页面呼吸感 */
+    padding: 0 12px; /* 左右留边，避免贴边 */
 }
 
+/* 2. 设备卡片核心样式：增强层次与交互 */
 .device-item {
-    border-radius: 6px;
+    border-radius: 12px; /* 增大圆角，更现代 */
     overflow: hidden;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    flex: 0 0 calc((100% - 30px) / 3);
-    transition: transform 0.3s ease;
-    border: solid 1px #f0f0f0;
-    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* 初始阴影更柔和 */
+    flex: 0 0 calc((100% - 48px) / 3); /* 适配gap=24px，3列布局更均匀 */
+    transition: all 0.3s ease; /* 统一过渡效果，更流畅 */
+    border: 1px solid #f5f5f5; /* 初始淡灰色边框 */
+    background-color: #fff; /* 白色背景，突出内容 */
+    position: relative;
 }
 
+/* 卡片悬浮效果：上浮+深色阴影 */
+.device-item:hover {
+    transform: translateY(-6px); /* 轻微上浮，增强交互感 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /* 悬浮阴影加深 */
+    border-color: #eee; /* 悬浮时边框变深 */
+}
+
+/* 退役设备样式：强化区分 */
+.device-item.retired {
+    filter: grayscale(80%); /* 降低灰度强度，避免完全无色彩 */
+    opacity: 0.9; /* 提升透明度，保留一定质感 */
+    border-color: #ffebee; /* 退役设备淡红色边框 */
+    pointer-events: none; /* 禁止点击 */
+}
+.device-item.retired .device-link {
+    pointer-events: auto; /* 保留链接点击（若需） */
+}
+/* 3. 设备图片样式：优化显示比例 */
 .device-image {
-    height: 150px;
-    /* 减小高度 */
+    height: 180px; /* 适当增高，避免图片压缩变形 */
     overflow: hidden;
     margin: 0;
 }
@@ -63,54 +89,175 @@
 .device-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+    object-fit: cover; /* 保持图片比例，避免拉伸 */
+    transition: transform 0.5s ease; /* 图片缩放过渡更慢，更自然 */
 }
 
 .device-item:hover .device-image img {
-    transform: scale(1.05);
+    transform: scale(1.08); /* 增大缩放比例，更明显 */
 }
 
+/* 4. 卡片内部信息样式：优化排版与可读性 */
 .device-info {
-    padding: 12px;
+    padding: 16px; /* 增大内边距，文字不贴边 */
     text-align: left;
-	.device-price {
-		font-size: .875rem;
-		line-height: 1.4;
-		font-family: 'D-DIN', sans-serif;
-	 }
-	.device-title {
-	    font-size: 1rem;
-	    font-weight: 600;
-	    a {
-	        &.disabled {
-	            pointer-events: none;
-	        }
-	    }
-	}
-    p {
-        font-size: 13px;
-        line-height: 1.4;
-    }
 }
 
-@media only screen and (max-width: 760px) {
-	.devices {
-        gap: 1rem;
-	}
+/* 价格标签：突出显示 */
+.device-price {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-family: 'D-DIN', sans-serif;
+    color: #2196f3; /* 蓝色价格，更醒目 */
+    background-color: #f5f9ff; /* 淡蓝色背景，形成标签感 */
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block; /* 避免独占一行 */
+    margin-bottom: 8px;
+}
+
+/* 设备标题：强化层级 */
+.device-title {
+    font-size: 1.125rem; /* 增大标题字体，更醒目 */
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* 设备链接：优化交互反馈 */
+.device-link {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* 链接下划线动画（hover时出现） */
+.device-link:not(.disabled):hover {
+    color: #2196f3; /*  hover时变蓝 */
+}
+
+.device-link:not(.disabled)::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2196f3;
+    transition: width 0.3s ease;
+}
+
+.device-link:not(.disabled):hover::after {
+    width: 100%; /* hover时下划线展开 */
+}
+
+/* 禁用链接样式：明确不可点击 */
+.device-link.disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* 设备描述：优化可读性 */
+.device-description {
+    font-size: 0.875rem; /* 调整字体大小，避免过小 */
+    line-height: 1.6;
+    color: #666; /* 灰色描述，不抢标题风头 */
+    margin-bottom: 12px;
+}
+
+/* 5. 时间信息：添加图标，增强识别 */
+.device-dates {
+    margin-top: 10px;
+    font-size: 0.8125rem; /* 缩小时间字体，作为辅助信息 */
+    color: #888;
+    display: flex;
+    flex-wrap: wrap; /* 小屏幕时自动换行 */
+    gap: 12px;
+}
+
+/* 时间项：添加图标（需引入Font Awesome） */
+.purchase-date, .retirement-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* 时间图标样式（需确保项目已引入Font Awesome） */
+.purchase-date::before {
+    content: '\f073'; /* 日历图标 */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    color: #4CAF50; /* 服役时间绿色图标 */
+}
+
+.retirement-date::before {
+    content: '\f073'; /* 日历图标 */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    color: #f44336; /* 退役时间红色图标 */
+}
+
+/* 6. 状态横幅：优化位置与视觉 */
+.status-banner {
+    position: absolute;
+    top: 16px;
+    left: -40px;
+    padding: 4px 40px;
+    transform: rotate(-45deg);
+    font-weight: 600;
+    color: #fff;
+    z-index: 10;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px; /* 增大字间距，避免拥挤 */
+    animation: fadeIn 0.5s ease forwards; /* 加载动画 */
+}
+
+/* 状态横幅动画：从透明到不透明 */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.status-banner.active {
+    background-color: #4CAF50; /* 服役绿色，更鲜艳 */
+}
+
+.status-banner.retired {
+    background-color: #f44336; /* 退役红色，更醒目 */
+}
+
+/* 7. 响应式适配：覆盖不同屏幕尺寸 */
+/* 平板端（760px ~ 1024px）：2列布局 */
+@media only screen and (max-width: 1024px) and (min-width: 761px) {
     .device-item {
-		flex: 0 0 calc((100% - 1rem-4px) / 2);
-	    /* 非常小的屏幕上两列布局 */
+        flex: 0 0 calc((100% - 24px) / 2); /* 2列布局，适配gap=24px */
     }
 }
 
-@media only screen and (max-width: 480px) {
-	.device-item {
-        flex: 0 0 100%;
-        /* 非常小的屏幕上两列布局 */
-        }
+/* 手机端（760px 以下）：2列布局 */
+@media only screen and (max-width: 760px) {
+    .devices {
+        gap: 16px; /* 减小间距，适配小屏幕 */
+        margin-top: 1.5rem;
+    }
+    .device-item {
+        flex: 0 0 calc((100% - 16px) / 2); /* 2列布局，适配gap=16px */
+    }
     .device-image {
-        height: 200px;
+        height: 150px; /* 降低图片高度，节省屏幕空间 */
     }
 }
 
+/* 小手机端（480px 以下）：1列布局 */
+@media only screen and (max-width: 480px) {
+    .device-item {
+        flex: 0 0 100%; /* 1列布局，全屏宽度 */
+    }
+    .device-image {
+        height: 180px; /* 恢复图片高度，保证显示效果 */
+    }
+    .device-dates {
+        flex-direction: column; /* 时间信息垂直排列，避免换行拥挤 */
+        gap: 6px;
+    }
+}

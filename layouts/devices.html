@@ -23,7 +23,15 @@
           -}}
         {{ range $index, $device := .Site.Data.devices }}
         {{- $deviceImage := default "/device/white.webp" $device.image -}}
-        <div class="device-item animate__animated animate__fadeIn">
+        {{- $status := default "服役中" $device.status -}}
+        {{- $isRetired := eq $status "已退役" -}}
+        
+        <div class="device-item animate__animated animate__fadeIn {{ if $isRetired }}retired{{ end }}">
+            {{- /* 状态横幅 */ -}}
+            <div class="status-banner {{ if $isRetired }}retired{{ else }}active{{ end }}">
+                {{ $status }}
+            </div>
+            
             <figure class="device-image">
                 {{- dict "Src" $deviceImage "Alt" $device.name "Title" $device.description "Caption" $device.name "Loading" "lazy" "Linked" true "OptimConfig" $optim | partial "plugin/image.html" -}}
             </figure>
@@ -38,6 +46,23 @@
                         $device.link }}↗{{ end }}</a>
                 </div>
                 <p class="device-description">{{ $device.description }}</p>
+                
+                {{- /* 设备时间信息 */ -}}
+                <div class="device-dates">
+                    {{- with $device.purchaseDate }}
+                    <div class="purchase-date" title="置入时间">
+                        置入时间： {{ . }}
+                    </div>
+                    {{- end -}}
+                    
+                    {{- if $isRetired }}
+                    {{- with $device.retirementDate }}
+                    <div class="retirement-date" title="退役时间">
+                        退役时间 {{ . }}
+                    </div>
+                    {{- end -}}
+                    {{- end -}}
+                </div>
             </div>
         </div>
         {{ end }}
