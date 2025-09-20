@@ -3,7 +3,7 @@
   image: /device/oneplus8T.png
   link: https://www.oneplus.com/cn/8t/specs
   price: 3499
-  status: "已退役"  # 退役设备
+  status: "已退役"  
   purchaseDate: "2020-10-30"
   retirementDate: "2024-02-06"
 - name: OnePlus Buds Pro
@@ -11,7 +11,7 @@
   image: /device/OnePlusBudsPro.webp
   link: https://www.oneplus.com/cn/oneplus-buds-pro#a
   price: 458
-  status: "已退役"  # 退役设备
+  status: "已退役"  
   purchaseDate: "2021-02-03"
   retirementDate: "2024-06-25"
 - name: Nintendo Switch™主机
@@ -19,14 +19,14 @@
   image: /device/Switch.webp
   link: https://www.nintendoswitch.com.cn/
   price: 3370
-  status: "服役中"  # 服役中设备
+  status: "服役中"  
   purchaseDate: "2020-03-23"
 - name: 华为手环7
   description: 曜石黑，AMOLED 全面屏，超窄边框，屏幕细腻看得见。更轻更薄的机身*，轻盈舒适，贴合手腕，佩戴时让你几乎忘记了它的存在。
   image: /device/华为手环7.webp
   link: https://consumer.huawei.com/cn/wearables/band7/
   price: 208
-  status: "已退役"  # 退役设备
+  status: "已退役"  
   purchaseDate: "2022-11-02"
   retirementDate: "2024-07-09"
 - name: OnePlus ACE3
@@ -34,5 +34,12 @@
   image: /device/ACE3-blue.png
   link: https://www.oneplus.com/cn/ace-3
   price: 269
-  status: "服役中"  # 退役设备
+  status: "服役中"  
   purchaseDate: "2021-09-24"
+- name: OPPO Enco Air3
+  description: 蓝色，开盖迅速链接手机这点真心好，很快，我感觉比100元内的蓝牙耳机都要强上一些，试了下戴3个小时听歌看视频，真心舒适，不像入耳式那种疼。
+  image: /device/oppo-enco-air3.png
+  link: https://www.oneplus.com/cn/ace-3
+  price: 120
+  status: "服役中" 
+  purchaseDate: "2024-06-25"
